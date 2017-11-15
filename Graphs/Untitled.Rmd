@@ -1,0 +1,81 @@
+---
+title: "coffee05"
+author: "Ben Denis Shaffer"
+date: "11/12/2017"
+output: html_document
+---
+
+```{r}
+
+library(igraph)
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(GGally)
+library(stringr)
+
+coffeeG05 = read_graph("coffeeG05.gml", format = "gml")
+
+```
+
+
+```{r}
+df = data.frame(cl = centr_clo(coffeeG05)$res,
+                bt = centr_betw(coffeeG05)$res, 
+                dg = degree(coffeeG05),
+                indg = degree(coffeeG05, mode = "in"),
+                outdg = degree(coffeeG05, mode = "out"),
+                country = names(V(coffeeG05)))
+```
+
+Countries with the four greatest betweenness centralities are USA, Germany, Italy followed by South Africa. 
+In terms of degree centrality the top three are Germnay, Italy and USA respectivly, followed by the EU region and Viet Nam.
+Germany, USA, and UK have the greatest incooming edges, followed by Japan and France.
+In term of outdegree we have the EU region, Viet Nam, Italy, and then Brazil. It is worth noting that EU-28 region is obviously used as an exporting mechanism since it only has eminating edges and no imports.
+Excluding EU-28, Rawanda, Madagascar, Togo, and Viet Nam has the greatest closeness centrality. We can note that the three African countries mentioned all exclusively ecport and don't import.
+
+```{r}
+
+head(df %>% arrange(desc(bt)),10)
+head(df %>% arrange(desc(dg)),10)
+head(df %>% arrange(desc(indg)),10)
+head(df %>% arrange(desc(outdg)),10)
+head(df %>% arrange(desc(cl)),10)
+
+```
+
+
+```{r}
+
+df %>% filter(cl > 0.05, cl < 0.12) %>% select(cl, bt, dg, indg, outdg) %>% ggpairs()
+
+```
+
+```{r}
+USAout = E(coffeeG05)[from("USA")]
+sub_names = c(str_replace(attributes(USAout)$vnames, "USA\\|", ""),"USA")
+USAsub1 = induced_subgraph(coffeeG05, vids = sub_names)
+
+lay3 = layout.kamada.kawai(USAsub1)
+plot(USAsub1, vertex.color = betweenness(USAsub1), layout = lay3, 
+     vertex.label.cex = 0.5, vertex.size = degree(USAsub1, mode = "in"), 
+     edge.arrow.size = 0.2, edge.width = 0.2)
+
+```
+
+
+```{r}
+Rwandaout = E(coffeeG05)[from("Rwanda")]
+sub_names = c(str_replace(attributes(Rwandaout)$vnames, "Rwanda\\|", ""),"Rwanda")
+Rwandasub1 = induced_subgraph(coffeeG05, vids = sub_names)
+
+lay3 = layout.kamada.kawai(Rwandasub1)
+plot(Rwandasub1, vertex.color = betweenness(Rwandasub1), layout = lay3, 
+     vertex.label.cex = 0.5, vertex.size = degree(Rwandasub1, mode = "out"), 
+     edge.arrow.size = 0.2, edge.width = 0.2)
+
+```
+
+
+
+
