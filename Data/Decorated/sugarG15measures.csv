@@ -1,0 +1,6 @@
+country,closeness_centrality,indegree_centrality,outdegree_centrality,betweenness_centrality,mean_terms,total_exported,total_imported
+USA,0.0,0.25,0.0,0.0,,,651360.0
+United Kingdom,0.0,0.25,0.0,0.0,,,2949836.0
+Saint Lucia,0.0,0.25,0.0,0.0,,,339.0
+Trinidad and Tobago,1.0,0.0,1.0,0.0,,,36719.0
+Barbados,0.0,0.25,0.0,0.0,67.03366821352702,3638254.0,
