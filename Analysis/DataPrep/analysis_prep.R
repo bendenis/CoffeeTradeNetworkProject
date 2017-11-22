@@ -1,5 +1,6 @@
 library(igraph)
 library(stringr)
+library(ggplot2)
 library(purrr)
 library(GGally)
 library(dplyr)
@@ -46,8 +47,11 @@ betweenness_centrality_diffs = make_diffs(coffee_trade_2010, 'betweenness_centra
 df$betweenness_centrality_diffs = betweenness_centrality_diffs
 
 
+df$export = as.factor(df$export)
 
 df %>% select(export, closeness_centrality_diffs,
               indegree_centrality_diffs, outdegree_centrality_diffs,
               betweenness_centrality_diffs) %>% 
         ggpairs(mapping = aes(col = export, alpha = 0.3))
+
+

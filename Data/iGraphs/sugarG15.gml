@@ -1,4 +1,4 @@
-Creator "igraph version 0.7.1 Mon Nov 20 15:28:46 2017"
+Creator "igraph version 0.7.1 Wed Nov 22 02:57:39 2017"
 Version 1
 graph
 [
@@ -6,37 +6,32 @@ graph
   node
   [
     id 0
-    name "USA"
+    name "USA:USA"
   ]
   node
   [
     id 1
-    name "United Kingdom"
+    name "United Kingdom:GBR"
   ]
   node
   [
     id 2
-    name "Saint Lucia"
+    name "Trinidad and Tobago:TTO"
   ]
   node
   [
     id 3
-    name "Trinidad and Tobago"
+    name "Saint Lucia:LCA"
   ]
   node
   [
     id 4
-    name "Barbados"
+    name "Barbados:BRB"
   ]
   edge
   [
     source 4
     target 0
-  ]
-  edge
-  [
-    source 4
-    target 2
   ]
   edge
   [
@@ -47,5 +42,10 @@ graph
   [
     source 4
     target 3
+  ]
+  edge
+  [
+    source 4
+    target 2
   ]
 ]

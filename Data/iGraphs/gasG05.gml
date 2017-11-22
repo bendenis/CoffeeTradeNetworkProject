@@ -1,4 +1,4 @@
-Creator "igraph version 0.7.1 Mon Nov 20 15:28:46 2017"
+Creator "igraph version 0.7.1 Wed Nov 22 02:57:39 2017"
 Version 1
 graph
 [
@@ -6,2221 +6,2006 @@ graph
   node
   [
     id 0
-    name "Ukraine"
+    name "Niue:NIU"
   ]
   node
   [
     id 1
-    name "Bahamas"
+    name "Georgia:GEO"
   ]
   node
   [
     id 2
-    name "France"
+    name "Kenya:KEN"
   ]
   node
   [
     id 3
-    name "Thailand"
+    name "Afghanistan:AFG"
   ]
   node
   [
     id 4
-    name "Bulgaria"
+    name "Honduras:HND"
   ]
   node
   [
     id 5
-    name "Venezuela"
+    name "Germany:DEU"
   ]
   node
   [
     id 6
-    name "Timor-Leste"
+    name "Ukraine:UKR"
   ]
   node
   [
     id 7
-    name "Special Categories"
+    name "Hungary:HUN"
   ]
   node
   [
     id 8
-    name "Hungary"
+    name "Luxembourg:LUX"
   ]
   node
   [
     id 9
-    name "Sweden"
+    name "Comoros:COM"
   ]
   node
   [
     id 10
-    name "Morocco"
+    name "Cayman Isds:CYM"
   ]
   node
   [
     id 11
-    name "Rwanda"
+    name "Bosnia Herzegovina:BIH"
   ]
   node
   [
     id 12
-    name "Azerbaijan"
+    name "Libya:LBY"
   ]
   node
   [
     id 13
-    name "Jordan"
+    name "Turkey:TUR"
   ]
   node
   [
     id 14
-    name "Côte d'Ivoire"
+    name "Denmark:DNK"
   ]
   node
   [
     id 15
-    name "Seychelles"
+    name "Singapore:SGP"
   ]
   node
   [
     id 16
-    name "Kyrgyzstan"
+    name "Tokelau:TKL"
   ]
   node
   [
     id 17
-    name "Armenia"
+    name "Oman:OMN"
   ]
   node
   [
     id 18
-    name "Russian Federation"
+    name "Malawi:MWI"
   ]
   node
   [
     id 19
-    name "Singapore"
+    name "Bulgaria:BGR"
   ]
   node
   [
     id 20
-    name "Other Europe, nes"
+    name "Sweden:SWE"
   ]
   node
   [
     id 21
-    name "Bunkers"
+    name "Cameroon:CMR"
   ]
   node
   [
     id 22
-    name "Georgia"
+    name "Portugal:PRT"
   ]
   node
   [
     id 23
-    name "Tunisia"
+    name "Kyrgyzstan:KGZ"
   ]
   node
   [
     id 24
-    name "Afghanistan"
+    name "Gabon:GAB"
   ]
   node
   [
     id 25
-    name "Dem. Rep. of the Congo"
+    name "Angola:AGO"
   ]
   node
   [
     id 26
-    name "Viet Nam"
+    name "Indonesia:IDN"
   ]
   node
   [
     id 27
-    name "Fmr Sudan"
+    name "Qatar:QAT"
   ]
   node
   [
     id 28
-    name "Poland"
+    name "India:IND"
   ]
   node
   [
     id 29
-    name "Colombia"
+    name "Rep. of Moldova:MDA"
   ]
   node
   [
     id 30
-    name "Latvia"
+    name "Wallis and Futuna Isds:WLF"
   ]
   node
   [
     id 31
-    name "Chile"
+    name "Switzerland:CHE"
   ]
   node
   [
     id 32
-    name "Serbia and Montenegro"
+    name "Slovenia:SVN"
   ]
   node
   [
     id 33
-    name "Rep. of Moldova"
+    name "Saint Helena:SHN"
   ]
   node
   [
     id 34
-    name "China, Hong Kong SAR"
+    name "Mozambique:MOZ"
   ]
   node
   [
     id 35
-    name "Areas, nes"
+    name "Yemen:YEM"
   ]
   node
   [
     id 36
-    name "Mozambique"
+    name "Saint Vincent and the Grenadines:VCT"
   ]
   node
   [
     id 37
-    name "Malawi"
+    name "Spain:ESP"
   ]
   node
   [
     id 38
-    name "Turks and Caicos Isds"
+    name "Br. Virgin Isds:VGB"
   ]
   node
   [
     id 39
-    name "Swaziland"
+    name "United Rep. of Tanzania:TZA"
   ]
   node
   [
     id 40
-    name "Saint Vincent and the Grenadines"
+    name "Cook Isds:COK"
   ]
   node
   [
     id 41
-    name "Brazil"
+    name "Kazakhstan:KAZ"
   ]
   node
   [
     id 42
-    name "Bosnia Herzegovina"
+    name "Belgium:BEL"
   ]
   node
   [
     id 43
-    name "Botswana"
+    name "Samoa:WSM"
   ]
   node
   [
     id 44
-    name "Pakistan"
+    name "Ireland:IRL"
   ]
   node
   [
     id 45
-    name "Guatemala"
+    name "Austria:AUT"
   ]
   node
   [
     id 46
-    name "Zimbabwe"
+    name "Azerbaijan:AZE"
   ]
   node
   [
     id 47
-    name "Argentina"
+    name "Tunisia:TUN"
   ]
   node
   [
     id 48
-    name "Japan"
+    name "Dem. People's Rep. of Korea:PRK"
   ]
   node
   [
     id 49
-    name "China"
+    name "Djibouti:DJI"
   ]
   node
   [
     id 50
-    name "Namibia"
+    name "Poland:POL"
   ]
   node
   [
     id 51
-    name "Ethiopia"
+    name "Dominican Rep.:DOM"
   ]
   node
   [
     id 52
-    name "Algeria"
+    name "Barbados:BRB"
   ]
   node
   [
     id 53
-    name "Bangladesh"
+    name "Rep. of Korea:KOR"
   ]
   node
   [
     id 54
-    name "Nepal"
+    name "France:FRA"
   ]
   node
   [
     id 55
-    name "Slovenia"
+    name "China:CHN"
   ]
   node
   [
     id 56
-    name "Kazakhstan"
+    name "Central African Rep.:CAF"
   ]
   node
   [
     id 57
-    name "Nauru"
+    name "USA:USA"
   ]
   node
   [
     id 58
-    name "Iran"
+    name "El Salvador:SLV"
   ]
   node
   [
     id 59
-    name "EU-28"
+    name "Equatorial Guinea:GNQ"
   ]
   node
   [
     id 60
-    name "Eritrea"
+    name "Brazil:BRA"
   ]
   node
   [
     id 61
-    name "Uganda"
+    name "Latvia:LVA"
   ]
   node
   [
     id 62
-    name "Angola"
+    name "Bahamas:BHS"
   ]
   node
   [
     id 63
-    name "Ghana"
+    name "Nepal:NPL"
   ]
   node
   [
     id 64
-    name "Haiti"
+    name "Myanmar:MMR"
   ]
   node
   [
     id 65
-    name "Zambia"
+    name "Thailand:THA"
   ]
   node
   [
     id 66
-    name "Gibraltar"
+    name "Turks and Caicos Isds:TCA"
   ]
   node
   [
     id 67
-    name "Comoros"
+    name "Jordan:JOR"
   ]
   node
   [
     id 68
-    name "Trinidad and Tobago"
+    name "Iran:IRN"
   ]
   node
   [
     id 69
-    name "South Africa"
+    name "Seychelles:SYC"
   ]
   node
   [
     id 70
-    name "United Arab Emirates"
+    name "Uganda:UGA"
   ]
   node
   [
     id 71
-    name "Portugal"
+    name "Kuwait:KWT"
   ]
   node
   [
     id 72
-    name "Indonesia"
+    name "United Kingdom:GBR"
   ]
   node
   [
     id 73
-    name "Uruguay"
+    name "Philippines:PHL"
   ]
   node
   [
     id 74
-    name "USA"
+    name "Morocco:MAR"
   ]
   node
   [
     id 75
-    name "Myanmar"
+    name "United Arab Emirates:ARE"
   ]
   node
   [
     id 76
-    name "Central African Rep."
+    name "Mexico:MEX"
   ]
   node
   [
     id 77
-    name "Barbados"
+    name "Netherlands:NLD"
   ]
   node
   [
     id 78
-    name "Cayman Isds"
+    name "Finland:FIN"
   ]
   node
   [
     id 79
-    name "Qatar"
+    name "Côte d'Ivoire:CIV"
   ]
   node
   [
     id 80
-    name "Finland"
+    name "Italy:ITA"
   ]
   node
   [
     id 81
-    name "Switzerland"
+    name "Swaziland:SWZ"
   ]
   node
   [
     id 82
-    name "Malaysia"
+    name "Argentina:ARG"
   ]
   node
   [
     id 83
-    name "Canada"
+    name "Czechia:CZE"
   ]
   node
   [
     id 84
-    name "Jamaica"
+    name "Japan:JPN"
   ]
   node
   [
     id 85
-    name "Norway"
+    name "Slovakia:SVK"
   ]
   node
   [
     id 86
-    name "Philippines"
+    name "New Caledonia:NCL"
   ]
   node
   [
     id 87
-    name "Austria"
+    name "Gibraltar:GIB"
   ]
   node
   [
     id 88
-    name "Rep. of Korea"
+    name "Lithuania:LTU"
   ]
   node
   [
     id 89
-    name "Lithuania"
+    name "Colombia:COL"
   ]
   node
   [
     id 90
-    name "Bahrain"
+    name "Rwanda:RWA"
   ]
   node
   [
     id 91
-    name "Egypt"
+    name "Eritrea:ERI"
   ]
   node
   [
     id 92
-    name "Kuwait"
+    name "Timor-Leste:TLS"
   ]
   node
   [
     id 93
-    name "Fiji"
+    name "Zimbabwe:ZWE"
   ]
   node
   [
     id 94
-    name "India"
+    name "Trinidad and Tobago:TTO"
   ]
   node
   [
     id 95
-    name "Saint Helena"
+    name "Australia:AUS"
   ]
   node
   [
     id 96
-    name "New Zealand"
+    name "New Zealand:NZL"
   ]
   node
   [
     id 97
-    name "New Caledonia"
+    name "Bahrain:BHR"
   ]
   node
   [
     id 98
-    name "Australia"
+    name "Nauru:NRU"
   ]
   node
   [
     id 99
-    name "El Salvador"
+    name "Chile:CHL"
   ]
   node
   [
     id 100
-    name "Cook Isds"
+    name "Sao Tome and Principe:STP"
   ]
   node
   [
     id 101
-    name "Spain"
+    name "Ethiopia:ETH"
   ]
   node
   [
     id 102
-    name "Tokelau"
+    name "Botswana:BWA"
   ]
   node
   [
     id 103
-    name "Djibouti"
+    name "Viet Nam:VNM"
   ]
   node
   [
     id 104
-    name "United Rep. of Tanzania"
+    name "Malaysia:MYS"
   ]
   node
   [
     id 105
-    name "Kenya"
+    name "Algeria:DZA"
   ]
   node
   [
     id 106
-    name "Ireland"
+    name "Egypt:EGY"
   ]
   node
   [
     id 107
-    name "Cameroon"
+    name "Antigua and Barbuda:ATG"
   ]
   node
   [
     id 108
-    name "Luxembourg"
+    name "Venezuela:VEN"
   ]
   node
   [
     id 109
-    name "Lebanon"
+    name "Bolivia (Plurinational State of):BOL"
   ]
   node
   [
     id 110
-    name "Sao Tome and Principe"
+    name "Namibia:NAM"
   ]
   node
   [
     id 111
-    name "Israel"
+    name "Greece:GRC"
   ]
   node
   [
     id 112
-    name "Gabon"
+    name "Haiti:HTI"
   ]
   node
   [
     id 113
-    name "Italy"
+    name "Russian Federation:RUS"
   ]
   node
   [
     id 114
-    name "Czechia"
+    name "Congo:COG"
   ]
   node
   [
     id 115
-    name "Croatia"
+    name "Fmr Sudan:SDN"
   ]
   node
   [
     id 116
-    name "Mexico"
+    name "Guatemala:GTM"
   ]
   node
   [
     id 117
-    name "Samoa"
+    name "Canada:CAN"
   ]
   node
   [
     id 118
-    name "Niue"
+    name "Israel:ISR"
   ]
   node
   [
     id 119
-    name "Turkey"
+    name "Lebanon:LBN"
   ]
   node
   [
     id 120
-    name "Congo"
+    name "China, Hong Kong SAR:HKG"
   ]
   node
   [
     id 121
-    name "Saudi Arabia"
+    name "Croatia:HRV"
   ]
   node
   [
     id 122
-    name "Oman"
+    name "Pakistan:PAK"
   ]
   node
   [
     id 123
-    name "Greece"
+    name "Jamaica:JAM"
   ]
   node
   [
     id 124
-    name "Honduras"
+    name "Ghana:GHA"
   ]
   node
   [
     id 125
-    name "Belgium"
+    name "South Africa:ZAF"
   ]
   node
   [
     id 126
-    name "United Kingdom"
+    name "Uruguay:URY"
   ]
   node
   [
     id 127
-    name "Germany"
+    name "Zambia:ZMB"
   ]
   node
   [
     id 128
-    name "Netherlands"
+    name "Dem. Rep. of the Congo:COD"
   ]
   node
   [
     id 129
-    name "Antigua and Barbuda"
+    name "Armenia:ARM"
   ]
   node
   [
     id 130
-    name "Denmark"
+    name "Serbia and Montenegro:SCG"
   ]
   node
   [
     id 131
-    name "Other Asia, nes"
+    name "Fiji:FJI"
   ]
   node
   [
     id 132
-    name "Yemen"
-  ]
-  node
-  [
-    id 133
-    name "Dominican Rep."
-  ]
-  node
-  [
-    id 134
-    name "Dem. People's Rep. of Korea"
-  ]
-  node
-  [
-    id 135
-    name "Wallis and Futuna Isds"
-  ]
-  node
-  [
-    id 136
-    name "Libya"
-  ]
-  node
-  [
-    id 137
-    name "Free Zones"
-  ]
-  node
-  [
-    id 138
-    name "Bolivia (Plurinational State of)"
-  ]
-  node
-  [
-    id 139
-    name "Slovakia"
-  ]
-  node
-  [
-    id 140
-    name "Br. Virgin Isds"
-  ]
-  node
-  [
-    id 141
-    name "Equatorial Guinea"
-  ]
-  edge
-  [
-    source 0
-    target 74
-  ]
-  edge
-  [
-    source 0
-    target 28
-  ]
-  edge
-  [
-    source 0
-    target 33
-  ]
-  edge
-  [
-    source 0
-    target 127
-  ]
-  edge
-  [
-    source 0
-    target 81
+    name "Norway:NOR"
   ]
   edge
   [
     source 2
-    target 107
+    target 70
   ]
   edge
   [
     source 2
-    target 52
+    target 39
   ]
   edge
   [
     source 2
-    target 10
+    target 115
   ]
   edge
   [
     source 2
-    target 126
-  ]
-  edge
-  [
-    source 2
-    target 81
-  ]
-  edge
-  [
-    source 2
-    target 101
-  ]
-  edge
-  [
-    source 2
-    target 12
-  ]
-  edge
-  [
-    source 2
-    target 23
-  ]
-  edge
-  [
-    source 2
-    target 113
-  ]
-  edge
-  [
-    source 2
-    target 108
-  ]
-  edge
-  [
-    source 2
-    target 87
-  ]
-  edge
-  [
-    source 3
-    target 19
-  ]
-  edge
-  [
-    source 3
-    target 48
-  ]
-  edge
-  [
-    source 4
-    target 126
+    target 90
   ]
   edge
   [
     source 5
+    target 20
+  ]
+  edge
+  [
+    source 5
+    target 54
+  ]
+  edge
+  [
+    source 5
+    target 44
+  ]
+  edge
+  [
+    source 5
+    target 72
+  ]
+  edge
+  [
+    source 5
+    target 78
+  ]
+  edge
+  [
+    source 6
     target 29
   ]
   edge
   [
     source 6
-    target 98
-  ]
-  edge
-  [
-    source 8
-    target 32
-  ]
-  edge
-  [
-    source 9
-    target 8
-  ]
-  edge
-  [
-    source 9
-    target 28
-  ]
-  edge
-  [
-    source 9
-    target 2
-  ]
-  edge
-  [
-    source 9
-    target 85
-  ]
-  edge
-  [
-    source 14
-    target 126
-  ]
-  edge
-  [
-    source 15
-    target 3
-  ]
-  edge
-  [
-    source 18
-    target 9
-  ]
-  edge
-  [
-    source 18
-    target 35
-  ]
-  edge
-  [
-    source 18
-    target 56
-  ]
-  edge
-  [
-    source 19
-    target 3
-  ]
-  edge
-  [
-    source 19
-    target 72
-  ]
-  edge
-  [
-    source 19
-    target 69
-  ]
-  edge
-  [
-    source 19
-    target 131
-  ]
-  edge
-  [
-    source 19
-    target 86
-  ]
-  edge
-  [
-    source 19
-    target 41
-  ]
-  edge
-  [
-    source 19
-    target 49
-  ]
-  edge
-  [
-    source 23
-    target 52
-  ]
-  edge
-  [
-    source 23
-    target 2
-  ]
-  edge
-  [
-    source 23
-    target 136
-  ]
-  edge
-  [
-    source 26
-    target 48
-  ]
-  edge
-  [
-    source 28
-    target 9
-  ]
-  edge
-  [
-    source 28
-    target 127
-  ]
-  edge
-  [
-    source 28
-    target 30
-  ]
-  edge
-  [
-    source 29
-    target 137
-  ]
-  edge
-  [
-    source 31
-    target 127
-  ]
-  edge
-  [
-    source 34
-    target 49
-  ]
-  edge
-  [
-    source 36
-    target 69
-  ]
-  edge
-  [
-    source 37
-    target 36
-  ]
-  edge
-  [
-    source 39
-    target 69
-  ]
-  edge
-  [
-    source 41
-    target 74
-  ]
-  edge
-  [
-    source 41
-    target 31
-  ]
-  edge
-  [
-    source 43
-    target 65
-  ]
-  edge
-  [
-    source 43
-    target 69
-  ]
-  edge
-  [
-    source 43
-    target 46
-  ]
-  edge
-  [
-    source 43
-    target 50
-  ]
-  edge
-  [
-    source 44
-    target 24
-  ]
-  edge
-  [
-    source 47
-    target 2
-  ]
-  edge
-  [
-    source 47
-    target 31
-  ]
-  edge
-  [
-    source 47
-    target 73
-  ]
-  edge
-  [
-    source 47
-    target 41
-  ]
-  edge
-  [
-    source 48
-    target 88
-  ]
-  edge
-  [
-    source 48
-    target 86
-  ]
-  edge
-  [
-    source 48
-    target 101
-  ]
-  edge
-  [
-    source 48
-    target 131
-  ]
-  edge
-  [
-    source 49
-    target 34
-  ]
-  edge
-  [
-    source 49
-    target 75
-  ]
-  edge
-  [
-    source 49
-    target 134
-  ]
-  edge
-  [
-    source 50
-    target 43
-  ]
-  edge
-  [
-    source 50
-    target 65
-  ]
-  edge
-  [
-    source 50
-    target 101
-  ]
-  edge
-  [
-    source 50
-    target 62
-  ]
-  edge
-  [
-    source 50
-    target 69
-  ]
-  edge
-  [
-    source 52
-    target 71
-  ]
-  edge
-  [
-    source 52
-    target 2
-  ]
-  edge
-  [
-    source 52
-    target 125
-  ]
-  edge
-  [
-    source 52
-    target 126
-  ]
-  edge
-  [
-    source 52
-    target 46
-  ]
-  edge
-  [
-    source 52
-    target 91
-  ]
-  edge
-  [
-    source 52
-    target 128
-  ]
-  edge
-  [
-    source 52
-    target 55
-  ]
-  edge
-  [
-    source 52
-    target 113
-  ]
-  edge
-  [
-    source 52
-    target 40
-  ]
-  edge
-  [
-    source 52
-    target 74
-  ]
-  edge
-  [
-    source 52
-    target 101
-  ]
-  edge
-  [
-    source 52
-    target 23
-  ]
-  edge
-  [
-    source 52
-    target 119
-  ]
-  edge
-  [
-    source 52
-    target 123
-  ]
-  edge
-  [
-    source 52
-    target 88
-  ]
-  edge
-  [
-    source 53
-    target 35
-  ]
-  edge
-  [
-    source 55
-    target 113
-  ]
-  edge
-  [
-    source 55
-    target 42
-  ]
-  edge
-  [
-    source 56
-    target 8
-  ]
-  edge
-  [
-    source 56
-    target 28
-  ]
-  edge
-  [
-    source 56
-    target 18
-  ]
-  edge
-  [
-    source 56
-    target 127
-  ]
-  edge
-  [
-    source 56
-    target 55
-  ]
-  edge
-  [
-    source 56
-    target 12
-  ]
-  edge
-  [
-    source 56
-    target 139
-  ]
-  edge
-  [
-    source 56
-    target 22
-  ]
-  edge
-  [
-    source 56
-    target 16
-  ]
-  edge
-  [
-    source 56
-    target 33
-  ]
-  edge
-  [
-    source 56
-    target 17
-  ]
-  edge
-  [
-    source 58
-    target 128
-  ]
-  edge
-  [
-    source 58
-    target 70
-  ]
-  edge
-  [
-    source 58
-    target 19
-  ]
-  edge
-  [
-    source 58
-    target 48
-  ]
-  edge
-  [
-    source 58
-    target 69
-  ]
-  edge
-  [
-    source 59
-    target 107
-  ]
-  edge
-  [
-    source 59
-    target 52
-  ]
-  edge
-  [
-    source 59
-    target 19
-  ]
-  edge
-  [
-    source 59
-    target 20
-  ]
-  edge
-  [
-    source 59
-    target 111
-  ]
-  edge
-  [
-    source 59
-    target 10
-  ]
-  edge
-  [
-    source 59
-    target 23
-  ]
-  edge
-  [
-    source 59
-    target 7
-  ]
-  edge
-  [
-    source 59
-    target 42
-  ]
-  edge
-  [
-    source 59
-    target 120
-  ]
-  edge
-  [
-    source 59
-    target 74
-  ]
-  edge
-  [
-    source 59
-    target 136
-  ]
-  edge
-  [
-    source 59
-    target 81
-  ]
-  edge
-  [
-    source 59
-    target 12
-  ]
-  edge
-  [
-    source 59
-    target 85
-  ]
-  edge
-  [
-    source 65
-    target 25
-  ]
-  edge
-  [
-    source 68
-    target 1
-  ]
-  edge
-  [
-    source 68
-    target 133
-  ]
-  edge
-  [
-    source 68
-    target 128
-  ]
-  edge
-  [
-    source 68
-    target 78
-  ]
-  edge
-  [
-    source 68
-    target 74
-  ]
-  edge
-  [
-    source 68
-    target 40
-  ]
-  edge
-  [
-    source 68
-    target 140
-  ]
-  edge
-  [
-    source 69
-    target 36
-  ]
-  edge
-  [
-    source 69
-    target 37
-  ]
-  edge
-  [
-    source 69
-    target 67
-  ]
-  edge
-  [
-    source 69
-    target 95
-  ]
-  edge
-  [
-    source 69
-    target 25
-  ]
-  edge
-  [
-    source 69
-    target 21
-  ]
-  edge
-  [
-    source 69
-    target 46
-  ]
-  edge
-  [
-    source 69
-    target 62
-  ]
-  edge
-  [
-    source 69
-    target 63
-  ]
-  edge
-  [
-    source 69
-    target 65
-  ]
-  edge
-  [
-    source 69
-    target 112
-  ]
-  edge
-  [
-    source 69
-    target 86
-  ]
-  edge
-  [
-    source 69
-    target 105
-  ]
-  edge
-  [
-    source 70
-    target 132
-  ]
-  edge
-  [
-    source 70
-    target 92
-  ]
-  edge
-  [
-    source 70
-    target 35
-  ]
-  edge
-  [
-    source 70
-    target 103
-  ]
-  edge
-  [
-    source 70
-    target 13
-  ]
-  edge
-  [
-    source 70
-    target 79
-  ]
-  edge
-  [
-    source 70
-    target 122
-  ]
-  edge
-  [
-    source 72
-    target 19
-  ]
-  edge
-  [
-    source 72
-    target 113
-  ]
-  edge
-  [
-    source 72
-    target 131
-  ]
-  edge
-  [
-    source 72
-    target 48
-  ]
-  edge
-  [
-    source 72
-    target 49
-  ]
-  edge
-  [
-    source 72
-    target 88
-  ]
-  edge
-  [
-    source 74
-    target 70
-  ]
-  edge
-  [
-    source 74
-    target 72
-  ]
-  edge
-  [
-    source 74
-    target 45
-  ]
-  edge
-  [
-    source 74
-    target 126
-  ]
-  edge
-  [
-    source 74
-    target 92
-  ]
-  edge
-  [
-    source 74
-    target 113
-  ]
-  edge
-  [
-    source 74
-    target 77
-  ]
-  edge
-  [
-    source 74
-    target 128
-  ]
-  edge
-  [
-    source 74
-    target 98
-  ]
-  edge
-  [
-    source 74
-    target 99
-  ]
-  edge
-  [
-    source 74
-    target 116
-  ]
-  edge
-  [
-    source 74
-    target 129
-  ]
-  edge
-  [
-    source 74
-    target 83
-  ]
-  edge
-  [
-    source 74
-    target 48
-  ]
-  edge
-  [
-    source 74
-    target 106
-  ]
-  edge
-  [
-    source 74
-    target 68
-  ]
-  edge
-  [
-    source 79
-    target 70
-  ]
-  edge
-  [
-    source 79
-    target 35
-  ]
-  edge
-  [
-    source 79
-    target 90
-  ]
-  edge
-  [
-    source 79
-    target 101
-  ]
-  edge
-  [
-    source 79
-    target 113
-  ]
-  edge
-  [
-    source 79
-    target 94
-  ]
-  edge
-  [
-    source 79
-    target 88
-  ]
-  edge
-  [
-    source 79
-    target 48
-  ]
-  edge
-  [
-    source 79
-    target 131
-  ]
-  edge
-  [
-    source 80
-    target 9
-  ]
-  edge
-  [
-    source 81
-    target 2
-  ]
-  edge
-  [
-    source 81
-    target 127
-  ]
-  edge
-  [
-    source 81
-    target 87
-  ]
-  edge
-  [
-    source 82
-    target 19
-  ]
-  edge
-  [
-    source 82
-    target 74
-  ]
-  edge
-  [
-    source 82
-    target 131
-  ]
-  edge
-  [
-    source 82
-    target 48
-  ]
-  edge
-  [
-    source 82
-    target 86
-  ]
-  edge
-  [
-    source 82
-    target 88
-  ]
-  edge
-  [
-    source 83
-    target 74
-  ]
-  edge
-  [
-    source 83
-    target 44
-  ]
-  edge
-  [
-    source 84
-    target 74
-  ]
-  edge
-  [
-    source 85
-    target 2
-  ]
-  edge
-  [
-    source 85
-    target 125
-  ]
-  edge
-  [
-    source 85
-    target 126
-  ]
-  edge
-  [
-    source 85
-    target 81
-  ]
-  edge
-  [
-    source 85
-    target 127
-  ]
-  edge
-  [
-    source 85
-    target 128
-  ]
-  edge
-  [
-    source 85
-    target 114
-  ]
-  edge
-  [
-    source 85
-    target 113
-  ]
-  edge
-  [
-    source 85
-    target 130
-  ]
-  edge
-  [
-    source 85
-    target 28
-  ]
-  edge
-  [
-    source 85
-    target 9
-  ]
-  edge
-  [
-    source 85
-    target 101
-  ]
-  edge
-  [
-    source 87
-    target 7
-  ]
-  edge
-  [
-    source 88
-    target 19
-  ]
-  edge
-  [
-    source 88
-    target 48
-  ]
-  edge
-  [
-    source 89
-    target 30
-  ]
-  edge
-  [
-    source 91
-    target 71
-  ]
-  edge
-  [
-    source 91
-    target 2
-  ]
-  edge
-  [
-    source 91
-    target 125
-  ]
-  edge
-  [
-    source 91
-    target 101
-  ]
-  edge
-  [
-    source 91
-    target 74
-  ]
-  edge
-  [
-    source 91
-    target 13
-  ]
-  edge
-  [
-    source 91
-    target 113
-  ]
-  edge
-  [
-    source 91
-    target 88
-  ]
-  edge
-  [
-    source 94
-    target 54
-  ]
-  edge
-  [
-    source 96
-    target 118
-  ]
-  edge
-  [
-    source 96
-    target 93
-  ]
-  edge
-  [
-    source 96
-    target 98
-  ]
-  edge
-  [
-    source 96
-    target 127
-  ]
-  edge
-  [
-    source 96
-    target 100
-  ]
-  edge
-  [
-    source 97
-    target 135
-  ]
-  edge
-  [
-    source 98
-    target 128
-  ]
-  edge
-  [
-    source 98
-    target 93
-  ]
-  edge
-  [
-    source 98
-    target 35
-  ]
-  edge
-  [
-    source 98
     target 57
   ]
   edge
   [
-    source 101
-    target 71
+    source 6
+    target 31
   ]
   edge
   [
-    source 101
-    target 66
+    source 6
+    target 5
   ]
   edge
   [
-    source 105
-    target 104
+    source 6
+    target 50
   ]
   edge
   [
-    source 105
-    target 61
-  ]
-  edge
-  [
-    source 105
-    target 27
-  ]
-  edge
-  [
-    source 105
-    target 11
-  ]
-  edge
-  [
-    source 106
-    target 126
-  ]
-  edge
-  [
-    source 107
-    target 76
-  ]
-  edge
-  [
-    source 108
-    target 2
-  ]
-  edge
-  [
-    source 108
-    target 125
-  ]
-  edge
-  [
-    source 108
-    target 127
-  ]
-  edge
-  [
-    source 109
-    target 13
-  ]
-  edge
-  [
-    source 112
-    target 126
-  ]
-  edge
-  [
-    source 112
-    target 110
-  ]
-  edge
-  [
-    source 112
-    target 141
-  ]
-  edge
-  [
-    source 113
-    target 2
-  ]
-  edge
-  [
-    source 113
-    target 120
-  ]
-  edge
-  [
-    source 113
-    target 127
-  ]
-  edge
-  [
-    source 113
-    target 111
-  ]
-  edge
-  [
-    source 113
-    target 55
-  ]
-  edge
-  [
-    source 113
-    target 74
-  ]
-  edge
-  [
-    source 113
-    target 136
-  ]
-  edge
-  [
-    source 113
-    target 81
-  ]
-  edge
-  [
-    source 113
-    target 101
-  ]
-  edge
-  [
-    source 113
-    target 115
-  ]
-  edge
-  [
-    source 113
-    target 139
-  ]
-  edge
-  [
-    source 114
-    target 139
-  ]
-  edge
-  [
-    source 115
-    target 55
-  ]
-  edge
-  [
-    source 115
-    target 113
-  ]
-  edge
-  [
-    source 116
-    target 83
-  ]
-  edge
-  [
-    source 116
-    target 74
-  ]
-  edge
-  [
-    source 116
-    target 124
-  ]
-  edge
-  [
-    source 116
-    target 127
-  ]
-  edge
-  [
-    source 117
-    target 102
-  ]
-  edge
-  [
-    source 121
-    target 35
-  ]
-  edge
-  [
-    source 121
-    target 20
-  ]
-  edge
-  [
-    source 121
-    target 131
-  ]
-  edge
-  [
-    source 122
-    target 71
-  ]
-  edge
-  [
-    source 122
-    target 70
-  ]
-  edge
-  [
-    source 122
-    target 35
-  ]
-  edge
-  [
-    source 122
-    target 101
-  ]
-  edge
-  [
-    source 122
-    target 94
-  ]
-  edge
-  [
-    source 122
-    target 88
-  ]
-  edge
-  [
-    source 122
-    target 48
-  ]
-  edge
-  [
-    source 122
-    target 2
-  ]
-  edge
-  [
-    source 122
-    target 131
-  ]
-  edge
-  [
-    source 125
-    target 128
-  ]
-  edge
-  [
-    source 125
-    target 2
-  ]
-  edge
-  [
-    source 125
-    target 126
-  ]
-  edge
-  [
-    source 125
-    target 108
-  ]
-  edge
-  [
-    source 125
-    target 127
-  ]
-  edge
-  [
-    source 126
-    target 19
-  ]
-  edge
-  [
-    source 126
-    target 125
-  ]
-  edge
-  [
-    source 126
-    target 128
-  ]
-  edge
-  [
-    source 126
-    target 74
-  ]
-  edge
-  [
-    source 126
-    target 106
-  ]
-  edge
-  [
-    source 126
+    source 7
     target 130
   ]
   edge
   [
-    source 127
-    target 9
+    source 8
+    target 54
   ]
   edge
   [
-    source 127
-    target 2
+    source 8
+    target 5
   ]
   edge
   [
-    source 127
-    target 126
+    source 8
+    target 42
   ]
   edge
   [
-    source 127
-    target 80
+    source 14
+    target 132
   ]
   edge
   [
-    source 127
-    target 106
-  ]
-  edge
-  [
-    source 130
-    target 85
-  ]
-  edge
-  [
-    source 132
+    source 15
     target 60
   ]
   edge
   [
-    source 132
-    target 51
+    source 15
+    target 55
   ]
   edge
   [
-    source 132
-    target 35
+    source 15
+    target 26
   ]
   edge
   [
-    source 132
-    target 123
+    source 15
+    target 125
   ]
   edge
   [
-    source 133
+    source 15
+    target 65
+  ]
+  edge
+  [
+    source 15
+    target 73
+  ]
+  edge
+  [
+    source 17
+    target 53
+  ]
+  edge
+  [
+    source 17
+    target 28
+  ]
+  edge
+  [
+    source 17
+    target 54
+  ]
+  edge
+  [
+    source 17
+    target 37
+  ]
+  edge
+  [
+    source 17
+    target 84
+  ]
+  edge
+  [
+    source 17
+    target 75
+  ]
+  edge
+  [
+    source 17
+    target 22
+  ]
+  edge
+  [
+    source 18
+    target 34
+  ]
+  edge
+  [
+    source 19
+    target 72
+  ]
+  edge
+  [
+    source 20
+    target 54
+  ]
+  edge
+  [
+    source 20
+    target 7
+  ]
+  edge
+  [
+    source 20
+    target 132
+  ]
+  edge
+  [
+    source 20
+    target 50
+  ]
+  edge
+  [
+    source 21
+    target 56
+  ]
+  edge
+  [
+    source 24
+    target 100
+  ]
+  edge
+  [
+    source 24
+    target 72
+  ]
+  edge
+  [
+    source 24
+    target 59
+  ]
+  edge
+  [
+    source 26
+    target 80
+  ]
+  edge
+  [
+    source 26
+    target 84
+  ]
+  edge
+  [
+    source 26
+    target 55
+  ]
+  edge
+  [
+    source 26
+    target 53
+  ]
+  edge
+  [
+    source 26
+    target 15
+  ]
+  edge
+  [
+    source 27
+    target 80
+  ]
+  edge
+  [
+    source 27
+    target 28
+  ]
+  edge
+  [
+    source 27
+    target 37
+  ]
+  edge
+  [
+    source 27
+    target 84
+  ]
+  edge
+  [
+    source 27
+    target 75
+  ]
+  edge
+  [
+    source 27
+    target 53
+  ]
+  edge
+  [
+    source 27
+    target 97
+  ]
+  edge
+  [
+    source 28
+    target 63
+  ]
+  edge
+  [
+    source 31
+    target 5
+  ]
+  edge
+  [
+    source 31
+    target 54
+  ]
+  edge
+  [
+    source 31
+    target 45
+  ]
+  edge
+  [
+    source 32
+    target 80
+  ]
+  edge
+  [
+    source 32
+    target 11
+  ]
+  edge
+  [
+    source 34
+    target 125
+  ]
+  edge
+  [
+    source 35
+    target 91
+  ]
+  edge
+  [
+    source 35
+    target 111
+  ]
+  edge
+  [
+    source 35
+    target 101
+  ]
+  edge
+  [
+    source 37
+    target 87
+  ]
+  edge
+  [
+    source 37
+    target 22
+  ]
+  edge
+  [
+    source 41
+    target 1
+  ]
+  edge
+  [
+    source 41
+    target 23
+  ]
+  edge
+  [
+    source 41
+    target 85
+  ]
+  edge
+  [
+    source 41
+    target 5
+  ]
+  edge
+  [
+    source 41
+    target 46
+  ]
+  edge
+  [
+    source 41
+    target 113
+  ]
+  edge
+  [
+    source 41
+    target 29
+  ]
+  edge
+  [
+    source 41
+    target 129
+  ]
+  edge
+  [
+    source 41
+    target 32
+  ]
+  edge
+  [
+    source 41
+    target 7
+  ]
+  edge
+  [
+    source 41
+    target 50
+  ]
+  edge
+  [
+    source 42
+    target 77
+  ]
+  edge
+  [
+    source 42
+    target 54
+  ]
+  edge
+  [
+    source 42
+    target 5
+  ]
+  edge
+  [
+    source 42
+    target 8
+  ]
+  edge
+  [
+    source 42
+    target 72
+  ]
+  edge
+  [
+    source 43
+    target 16
+  ]
+  edge
+  [
+    source 44
+    target 72
+  ]
+  edge
+  [
+    source 47
+    target 54
+  ]
+  edge
+  [
+    source 47
+    target 12
+  ]
+  edge
+  [
+    source 47
+    target 105
+  ]
+  edge
+  [
+    source 50
+    target 61
+  ]
+  edge
+  [
+    source 50
+    target 5
+  ]
+  edge
+  [
+    source 50
+    target 20
+  ]
+  edge
+  [
+    source 51
+    target 66
+  ]
+  edge
+  [
+    source 51
+    target 112
+  ]
+  edge
+  [
+    source 53
+    target 84
+  ]
+  edge
+  [
+    source 53
+    target 15
+  ]
+  edge
+  [
+    source 54
+    target 80
+  ]
+  edge
+  [
+    source 54
+    target 72
+  ]
+  edge
+  [
+    source 54
+    target 31
+  ]
+  edge
+  [
+    source 54
+    target 45
+  ]
+  edge
+  [
+    source 54
+    target 74
+  ]
+  edge
+  [
+    source 54
+    target 46
+  ]
+  edge
+  [
+    source 54
+    target 47
+  ]
+  edge
+  [
+    source 54
+    target 37
+  ]
+  edge
+  [
+    source 54
+    target 21
+  ]
+  edge
+  [
+    source 54
+    target 105
+  ]
+  edge
+  [
+    source 54
+    target 8
+  ]
+  edge
+  [
+    source 55
     target 64
   ]
   edge
   [
-    source 133
+    source 55
+    target 120
+  ]
+  edge
+  [
+    source 55
+    target 48
+  ]
+  edge
+  [
+    source 57
+    target 80
+  ]
+  edge
+  [
+    source 57
+    target 26
+  ]
+  edge
+  [
+    source 57
+    target 71
+  ]
+  edge
+  [
+    source 57
+    target 116
+  ]
+  edge
+  [
+    source 57
+    target 84
+  ]
+  edge
+  [
+    source 57
+    target 117
+  ]
+  edge
+  [
+    source 57
+    target 107
+  ]
+  edge
+  [
+    source 57
+    target 52
+  ]
+  edge
+  [
+    source 57
+    target 44
+  ]
+  edge
+  [
+    source 57
+    target 72
+  ]
+  edge
+  [
+    source 57
+    target 94
+  ]
+  edge
+  [
+    source 57
+    target 75
+  ]
+  edge
+  [
+    source 57
+    target 58
+  ]
+  edge
+  [
+    source 57
+    target 77
+  ]
+  edge
+  [
+    source 57
+    target 76
+  ]
+  edge
+  [
+    source 57
+    target 95
+  ]
+  edge
+  [
+    source 60
+    target 99
+  ]
+  edge
+  [
+    source 60
+    target 57
+  ]
+  edge
+  [
+    source 65
+    target 84
+  ]
+  edge
+  [
+    source 65
+    target 15
+  ]
+  edge
+  [
+    source 68
+    target 84
+  ]
+  edge
+  [
+    source 68
+    target 75
+  ]
+  edge
+  [
+    source 68
+    target 77
+  ]
+  edge
+  [
+    source 68
+    target 15
+  ]
+  edge
+  [
+    source 68
+    target 125
+  ]
+  edge
+  [
+    source 69
+    target 65
+  ]
+  edge
+  [
+    source 72
+    target 44
+  ]
+  edge
+  [
+    source 72
+    target 14
+  ]
+  edge
+  [
+    source 72
+    target 57
+  ]
+  edge
+  [
+    source 72
+    target 77
+  ]
+  edge
+  [
+    source 72
+    target 15
+  ]
+  edge
+  [
+    source 72
+    target 42
+  ]
+  edge
+  [
+    source 75
+    target 67
+  ]
+  edge
+  [
+    source 75
+    target 71
+  ]
+  edge
+  [
+    source 75
+    target 17
+  ]
+  edge
+  [
+    source 75
+    target 27
+  ]
+  edge
+  [
+    source 75
+    target 35
+  ]
+  edge
+  [
+    source 75
+    target 49
+  ]
+  edge
+  [
+    source 76
+    target 4
+  ]
+  edge
+  [
+    source 76
+    target 117
+  ]
+  edge
+  [
+    source 76
+    target 5
+  ]
+  edge
+  [
+    source 76
+    target 57
+  ]
+  edge
+  [
+    source 78
+    target 20
+  ]
+  edge
+  [
+    source 79
+    target 72
+  ]
+  edge
+  [
+    source 80
+    target 37
+  ]
+  edge
+  [
+    source 80
+    target 54
+  ]
+  edge
+  [
+    source 80
+    target 114
+  ]
+  edge
+  [
+    source 80
+    target 5
+  ]
+  edge
+  [
+    source 80
+    target 57
+  ]
+  edge
+  [
+    source 80
+    target 32
+  ]
+  edge
+  [
+    source 80
+    target 12
+  ]
+  edge
+  [
+    source 80
+    target 118
+  ]
+  edge
+  [
+    source 80
+    target 31
+  ]
+  edge
+  [
+    source 80
+    target 85
+  ]
+  edge
+  [
+    source 80
+    target 121
+  ]
+  edge
+  [
+    source 81
+    target 125
+  ]
+  edge
+  [
+    source 82
+    target 99
+  ]
+  edge
+  [
+    source 82
+    target 60
+  ]
+  edge
+  [
+    source 82
+    target 54
+  ]
+  edge
+  [
+    source 82
+    target 126
+  ]
+  edge
+  [
+    source 83
+    target 85
+  ]
+  edge
+  [
+    source 84
+    target 53
+  ]
+  edge
+  [
+    source 84
+    target 37
+  ]
+  edge
+  [
+    source 84
+    target 73
+  ]
+  edge
+  [
+    source 86
+    target 30
+  ]
+  edge
+  [
+    source 88
+    target 61
+  ]
+  edge
+  [
+    source 92
+    target 95
+  ]
+  edge
+  [
+    source 94
+    target 10
+  ]
+  edge
+  [
+    source 94
+    target 62
+  ]
+  edge
+  [
+    source 94
     target 38
   ]
   edge
   [
-    source 138
+    source 94
+    target 57
+  ]
+  edge
+  [
+    source 94
+    target 77
+  ]
+  edge
+  [
+    source 94
+    target 36
+  ]
+  edge
+  [
+    source 94
+    target 51
+  ]
+  edge
+  [
+    source 95
+    target 98
+  ]
+  edge
+  [
+    source 95
+    target 77
+  ]
+  edge
+  [
+    source 95
+    target 131
+  ]
+  edge
+  [
+    source 96
+    target 5
+  ]
+  edge
+  [
+    source 96
+    target 0
+  ]
+  edge
+  [
+    source 96
+    target 95
+  ]
+  edge
+  [
+    source 96
+    target 40
+  ]
+  edge
+  [
+    source 96
+    target 131
+  ]
+  edge
+  [
+    source 99
+    target 5
+  ]
+  edge
+  [
+    source 102
+    target 127
+  ]
+  edge
+  [
+    source 102
+    target 93
+  ]
+  edge
+  [
+    source 102
+    target 110
+  ]
+  edge
+  [
+    source 102
+    target 125
+  ]
+  edge
+  [
+    source 103
+    target 84
+  ]
+  edge
+  [
+    source 104
+    target 84
+  ]
+  edge
+  [
+    source 104
+    target 53
+  ]
+  edge
+  [
+    source 104
+    target 15
+  ]
+  edge
+  [
+    source 104
+    target 73
+  ]
+  edge
+  [
+    source 104
+    target 57
+  ]
+  edge
+  [
+    source 105
+    target 80
+  ]
+  edge
+  [
+    source 105
+    target 72
+  ]
+  edge
+  [
+    source 105
+    target 13
+  ]
+  edge
+  [
+    source 105
+    target 47
+  ]
+  edge
+  [
+    source 105
+    target 32
+  ]
+  edge
+  [
+    source 105
+    target 36
+  ]
+  edge
+  [
+    source 105
+    target 106
+  ]
+  edge
+  [
+    source 105
+    target 53
+  ]
+  edge
+  [
+    source 105
+    target 54
+  ]
+  edge
+  [
+    source 105
+    target 93
+  ]
+  edge
+  [
+    source 105
+    target 37
+  ]
+  edge
+  [
+    source 105
+    target 111
+  ]
+  edge
+  [
+    source 105
+    target 57
+  ]
+  edge
+  [
+    source 105
+    target 42
+  ]
+  edge
+  [
+    source 105
+    target 77
+  ]
+  edge
+  [
+    source 105
+    target 22
+  ]
+  edge
+  [
+    source 106
+    target 80
+  ]
+  edge
+  [
+    source 106
+    target 53
+  ]
+  edge
+  [
+    source 106
+    target 54
+  ]
+  edge
+  [
+    source 106
+    target 37
+  ]
+  edge
+  [
+    source 106
+    target 57
+  ]
+  edge
+  [
+    source 106
+    target 42
+  ]
+  edge
+  [
+    source 106
+    target 67
+  ]
+  edge
+  [
+    source 106
+    target 22
+  ]
+  edge
+  [
+    source 108
+    target 89
+  ]
+  edge
+  [
+    source 109
+    target 60
+  ]
+  edge
+  [
+    source 109
+    target 82
+  ]
+  edge
+  [
+    source 110
+    target 25
+  ]
+  edge
+  [
+    source 110
+    target 125
+  ]
+  edge
+  [
+    source 110
+    target 37
+  ]
+  edge
+  [
+    source 110
+    target 127
+  ]
+  edge
+  [
+    source 110
+    target 102
+  ]
+  edge
+  [
+    source 113
+    target 20
+  ]
+  edge
+  [
+    source 113
     target 41
   ]
   edge
   [
-    source 138
-    target 47
+    source 117
+    target 57
+  ]
+  edge
+  [
+    source 117
+    target 122
+  ]
+  edge
+  [
+    source 119
+    target 67
+  ]
+  edge
+  [
+    source 120
+    target 55
+  ]
+  edge
+  [
+    source 121
+    target 80
+  ]
+  edge
+  [
+    source 121
+    target 32
+  ]
+  edge
+  [
+    source 122
+    target 3
+  ]
+  edge
+  [
+    source 123
+    target 57
+  ]
+  edge
+  [
+    source 125
+    target 9
+  ]
+  edge
+  [
+    source 125
+    target 25
+  ]
+  edge
+  [
+    source 125
+    target 2
+  ]
+  edge
+  [
+    source 125
+    target 24
+  ]
+  edge
+  [
+    source 125
+    target 33
+  ]
+  edge
+  [
+    source 125
+    target 73
+  ]
+  edge
+  [
+    source 125
+    target 34
+  ]
+  edge
+  [
+    source 125
+    target 124
+  ]
+  edge
+  [
+    source 125
+    target 93
+  ]
+  edge
+  [
+    source 125
+    target 127
+  ]
+  edge
+  [
+    source 125
+    target 18
+  ]
+  edge
+  [
+    source 125
+    target 128
+  ]
+  edge
+  [
+    source 127
+    target 128
+  ]
+  edge
+  [
+    source 132
+    target 80
+  ]
+  edge
+  [
+    source 132
+    target 72
+  ]
+  edge
+  [
+    source 132
+    target 83
+  ]
+  edge
+  [
+    source 132
+    target 14
+  ]
+  edge
+  [
+    source 132
+    target 31
+  ]
+  edge
+  [
+    source 132
+    target 50
+  ]
+  edge
+  [
+    source 132
+    target 54
+  ]
+  edge
+  [
+    source 132
+    target 5
+  ]
+  edge
+  [
+    source 132
+    target 37
+  ]
+  edge
+  [
+    source 132
+    target 20
+  ]
+  edge
+  [
+    source 132
+    target 77
+  ]
+  edge
+  [
+    source 132
+    target 42
   ]
 ]

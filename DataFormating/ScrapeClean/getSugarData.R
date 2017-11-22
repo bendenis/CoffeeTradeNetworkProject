@@ -22,8 +22,13 @@ colnames(DT) = str_replace_all(names(DT),"\\.","_")
 ## select columns of interest and filter rows where exporter or importer was 'world':
 ## write the clean dataset to a csv file:
 
-write.csv(DT, file = "/Users/bendenisshaffer/Box Sync/UM Fall 2017/SI 608/Project/Data/sugar_trade.csv")
+write.csv(DT, file = "/Users/bendenisshaffer/Box Sync/UM Fall 2017/SI 608/CoffeeTradeNetworkProject/Data/Scraped/sugar_trade.csv")
 DTT = DT %>% select(Reporter,Partner,Trade_Value__US__,Netweight__kg_,
-                    Reporter_ISO, Partner_ISO, Commodity, Year) %>% filter(Partner != "World", Reporter != "World")
-write.csv(DTT, file = "/Users/bendenisshaffer/Box Sync/UM Fall 2017/SI 608/Project/Data/clean_sugar_trade.csv")
+                    Reporter_ISO, Partner_ISO, Commodity, Year) %>% filter(Partner != "World", Reporter != "World",
+                                                                           Partner != "EU-28", Reporter != "EU-28")
+
+
+DTT$Reporter = str_c(DTT$Reporter,DTT$Reporter_ISO, sep = ":")
+DTT$Partner = str_c(DTT$Partner,DTT$Partner_ISO, sep = ":")
+write.csv(DTT, file = "/Users/bendenisshaffer/Box Sync/UM Fall 2017/SI 608/CoffeeTradeNetworkProject/Data/Cleaned/clean_sugar_trade.csv")
 

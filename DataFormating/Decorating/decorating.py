@@ -11,7 +11,7 @@ ssdata = ssdata.drop(ssdata.columns[0],1)
 
 ### Natural Gas Graphs
 
-ngdata = ngdata.groupby(["Year","Reporter","Partner"])[["Trade_Value__US__","Netweight__kg_"]].sum()
+ngdata = ngdata.groupby(["Year","Reporter","Partner","Reporter_ISO","Partner_ISO"])[["Trade_Value__US__","Netweight__kg_"]].sum()
 ngdata.columns = ["Trade_Value_USD","Netweight_KG"]
 ngdata["Commodity"] = "Natural Gas"
 
@@ -39,7 +39,7 @@ gasG15 = nx.from_pandas_dataframe(ngdata15, source = 'Reporter', target = 'Partn
                                   
 ### Sugar Graphs
 
-ssdata = ssdata.groupby(["Year","Reporter","Partner"])[["Trade_Value__US__","Netweight__kg_"]].sum()
+ssdata = ssdata.groupby(["Year","Reporter","Partner","Reporter_ISO","Partner_ISO"])[["Trade_Value__US__","Netweight__kg_"]].sum()
 ssdata.columns = ["Trade_Value_USD","Netweight_KG"]
 ssdata["Commodity"] = "Sugar"
 
@@ -67,7 +67,7 @@ sugarG15 = nx.from_pandas_dataframe(ssdata15, source = 'Reporter', target = 'Par
 
 ### Coffee Graphs
 
-cfdata = cfdata.groupby(["Year","Reporter","Partner"])[["Trade_Value__US__","Netweight__kg_"]].sum()
+cfdata = cfdata.groupby(["Year","Reporter","Partner","Reporter_ISO","Partner_ISO"])[["Trade_Value__US__","Netweight__kg_"]].sum()
 cfdata.columns = ["Trade_Value_USD","Netweight_KG"]
 cfdata["Commodity"] = "Raw Coffee"
 
