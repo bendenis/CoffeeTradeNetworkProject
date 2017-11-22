@@ -32,4 +32,10 @@ heatmap(simV)
 
 simM = similarity(coffeeG10, vids = V(coffeeG10), mode = "all", method = "jaccard")
 
+hcl1 = hclust(as.dist(simM))
+clusts = cutree(hcl1, k = 4)
 
+lay3 = layout.davidson.harel(coffeeG10)
+plot(coffeeG10, vertex.color = clusts, layout = lay3, 
+     vertex.label.cex = 0.5, 
+     edge.arrow.size = 0.2, edge.width = 0.2)
