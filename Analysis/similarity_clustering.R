@@ -11,8 +11,8 @@ coffeeG10 = read_graph("Data/iGraphs/coffeeG10.gml", format = "gml")
 
 simM = similarity(coffeeG10, vids = V(coffeeG10), mode = "all", method = "dice")
 
-hcl1 = hclust(as.dist(simM))
-clusts = cutree(hcl1, k = 4)
+hcl1 = hclust(as.dist(simM), method = "ward.D")
+clusts = cutree(hcl1, k = 6)
 
 
 

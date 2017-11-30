@@ -49,9 +49,32 @@ df$betweenness_centrality_diffs = betweenness_centrality_diffs
 
 df$export = as.factor(df$export)
 
+df$iso_a3 = str_replace(str_extract(df$exporter,":[A-Z]*"),":","")
+
+df = df %>% filter(df$iso_a3 %in% World$iso_a3)
+
+wdf = World@data
+wdf$iso_a3 = as.character(wdf$iso_a3)
+wdf = wdf[wdf$iso_a3 %in% df$iso_a3,]
+
+gdp_diffs = make_diffs(wdf, "gdp_md_est")
+df$gdp_diffs = gdp_diffs
+
+pop_diffs = make_diffs(wdf, "pop_est")
+df$pop_est = pop_diffs
+
+mean_terms_diffs = make_diffs(wdf, "mean_terms")
+df$mean_terms_diffs= df$mean_terms_diffs
+
+
 df %>% select(export, closeness_centrality_diffs,
               indegree_centrality_diffs, outdegree_centrality_diffs,
-              betweenness_centrality_diffs) %>% 
+              betweenness_centrality_diffs, gdp_diffs, mean_terms_diffs) %>% 
         ggpairs(mapping = aes(col = export, alpha = 0.3))
+
+
+svm1 = ksvm(export ~ gdp_diffs + pop_est + outdegree_centrality_diffs + betweenness_centrality_diffs, data = df,
+            kernel = "rbfdot")
+table(predict(svm1))
 
 
