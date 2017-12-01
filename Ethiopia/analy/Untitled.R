@@ -25,18 +25,31 @@ cli = cliques(ETH_sub, max = 3, min = 3)
 
 
 
-country = "Viet Nam"
+country = "Ethiopia"
 graph = coffeeG05
 
-n1 = str_replace(attributes(E(graph)[from(country)])$vnames, str_c(country,"\\|"), "")
-n2 = str_replace(attributes(E(graph)[to(country)])$vnames, str_c("\\|",country,"$"), "")
-set = c(n1[n1 %in% n2],country)
+n1 = names(unlist(ego(graph, order = 1, nodes = country, mode = "out")))
+n2 = names(unlist(ego(graph, order = 1, nodes = country, mode = "in")))
+set = n1[n1 %in% n2]
+
 subG = induced_subgraph(coffeeG05, vids = set)
-
-
 plot(subG, vertex.color = degree(subG, mode = "in"), layout = layout.kamada.kawai(subG), 
      vertex.label.cex = 0.5, vertex.size = degree(subG, mode = "in"), 
      edge.arrow.size = 0.2, edge.width = 0.2)
+
+n1G = induced_subgraph(coffeeG05, vids = n1)
+plot(n1G, vertex.color = degree(n1G, mode = "in"), layout = layout.kamada.kawai(n1G), 
+     vertex.label.cex = 0.5, vertex.size = degree(n1G, mode = "out"), 
+     edge.arrow.size = 0.2, edge.width = 0.2)
+
+n2G = induced_subgraph(coffeeG05, vids = n2)
+plot(n2G, vertex.color = degree(n2G, mode = "out"), layout = layout.kamada.kawai(n2G), 
+     vertex.label.cex = 0.5, vertex.size = degree(n2G, mode = "in"), 
+     edge.arrow.size = 0.2, edge.width = 0.2)
+
+
+str_replace(attributes(E(coffeeG05)[from(set[1])])$vnames, str_c(set[1],"\\|"), "")
+
 
 
 
