@@ -1,0 +1,27 @@
+---
+title: "Untitled"
+author: "Ben Denis Shaffer"
+date: "12/3/2017"
+output: html_document
+---
+
+```{r}
+
+library(igraph)
+library(dplyr)
+
+coffeeG05 = read_graph("Data/iGraphs/coffeeG05.gml", format = "gml")
+
+tri = triangles(coffeeG05)
+tri_df = matrix(names(tri), byrow = TRUE)
+dim(tri_df) = c(3,nrow(tri_df)/3)
+tri_df = data.frame(t(tri_df))
+colnames(tri_df) = c("a","b","c")
+
+DF = tri_df %>% filter(a == "Ethiopia:ETH" | b == "Ethiopia:ETH" | c == "Ethiopia:ETH")
+
+for(i in 1:nrow(DF)){
+        plot(induced_subgraph(coffeeG05, vids = as.character(unlist(DF[i,]))))
+}
+
+```

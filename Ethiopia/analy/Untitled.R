@@ -1,31 +1,28 @@
-Ethiopia_out = E(coffeeG05)[from("Ethiopia")]
-Ethiopia_in = E(coffeeG05)[to("Ethiopia")]
-sub_names = c(str_replace(attributes(Ethiopia_out)$vnames, "Ethiopia\\|", ""),
-              str_replace(attributes(Ethiopia_in)$vnames, "\\|Ethiopia$", ""),
-              "Ethiopia")
-ETH_sub = induced_subgraph(coffeeG05, vids = sub_names)
+library(igraph)
+library(dplyr)
 
-lay3 = layout.kamada.kawai(ETH_sub)
-plot(ETH_sub, vertex.color = degree(ETH_sub, mode = "in"), layout = lay3, 
-     vertex.label.cex = 0.5, vertex.size = degree(ETH_sub, mode = "out"), 
-     edge.arrow.size = 0.2, edge.width = 0.2)
+coffeeG05 = read_graph("Data/iGraphs/coffeeG05.gml", format = "gml")
 
 
-tri = triangles(ETH_sub)
+
+
+tri = triangles(coffeeG05)
 tri_df = matrix(names(tri), byrow = TRUE)
-dim(tri_df) = c(3,1210)
+dim(tri_df) = c(3,12694)
 tri_df = data.frame(t(tri_df))
 colnames(tri_df) = c("a","b","c")
 
-tri_df %>% filter(a == "Ethiopia", b == "Belgium")
-
-cli = cliques(ETH_sub, max = 3, min = 3)
+DF = tri_df %>% filter(a == "Ethiopia:ETH")
 
 
+for(i in 1:nrow(DF)){
+        plot(induced_subgraph(coffeeG05, vids = as.character(unlist(DF[i,]))))
+}
 
 
 
-country = "Ethiopia"
+
+country = "Ethiopia:ETH"
 graph = coffeeG05
 
 n1 = names(unlist(ego(graph, order = 1, nodes = country, mode = "out")))
@@ -48,8 +45,23 @@ plot(n2G, vertex.color = degree(n2G, mode = "out"), layout = layout.kamada.kawai
      edge.arrow.size = 0.2, edge.width = 0.2)
 
 
-str_replace(attributes(E(coffeeG05)[from(set[1])])$vnames, str_c(set[1],"\\|"), "")
 
+n12 = names(unlist(ego(graph, order = 2, nodes = country, mode = "in")))
+n22 = names(unlist(ego(graph, order = 2, nodes = country, mode = "out")))
+set2 = n12[n12 %in% n22]
 
+subG2 = induced_subgraph(coffeeG05, vids = set2)
+plot(subG2, vertex.color = degree(subG2, mode = "in"), layout = layout.kamada.kawai(subG2), 
+     vertex.label.cex = 0.5, vertex.size = degree(subG2, mode = "in"), 
+     edge.arrow.size = 0.2, edge.width = 0.2)
 
+n12G = induced_subgraph(coffeeG05, vids = n12)
+plot(n12G, vertex.color = degree(n12G, mode = "in"), layout = layout.kamada.kawai(n12G), 
+     vertex.label.cex = 0.5, vertex.size = degree(n12G, mode = "out"), 
+     edge.arrow.size = 0.2, edge.width = 0.2)
+
+n22G = induced_subgraph(coffeeG05, vids = n22)
+plot(n22G, vertex.color = degree(n22G, mode = "out"), layout = layout.kamada.kawai(n22G), 
+     vertex.label.cex = 0.5, vertex.size = degree(n22G, mode = "in"), 
+     edge.arrow.size = 0.2, edge.width = 0.2)
 
