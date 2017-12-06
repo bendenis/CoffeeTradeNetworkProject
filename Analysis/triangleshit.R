@@ -15,7 +15,8 @@ dim(tri_df) = c(3,nrow(tri_df)/3)
 tri_df = data.frame(t(tri_df))
 colnames(tri_df) = c("a","b","c")
 
-DF = tri_df %>% filter(a == "Ethiopia:ETH")
+DF = tri_df %>% filter(a == "Ethiopia:ETH" | b == "Ethiopia:ETH" | c == "Ethiopia:ETH" )
+
 Gtri1 = induced_subgraph(coffeeG05, vids = as.character(unlist(DF[1,])))
 plot(Gtri1, edge.width = log(edge_attr(Gtri1)$Trade_Value_USD),
      edge.color = 7, edge.arrow.width = log(edge_attr(Gtri1)$Trade_Value_USD)/2,

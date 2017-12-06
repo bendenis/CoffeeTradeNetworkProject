@@ -1,7 +1,8 @@
 library(igraph)
 library(dplyr)
 
-coffeeG05 = read_graph("Data/iGraphs/coffeeG05.gml", format = "gml")
+coffeeG05 = read_graph("Data/iGraphs/coffeeG15.gml", format = "gml")
+coffeeG10 = read_graph("Data/iGraphs/coffeeG10.gml", format = "gml")
 
 
 
